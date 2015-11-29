@@ -210,7 +210,7 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
         colour1 = (LinearLayout) findViewById(R.id.SecondLocation);
-        if((Integer.parseInt(waitt1)) < 5){
+        if((Integer.parseInt(waitt1)) <= 5){
             colour1.setBackgroundColor(Color.GREEN);
         }
         else{
@@ -228,10 +228,10 @@ public class MainActivity extends AppCompatActivity {
         final Map data1 = new HashMap();
         data1.put("title", "Shortest Tims Line:");
         if(Integer.parseInt(waitt) < Integer.parseInt(waitt1)) {
-            data1.put("body", estiName + " \n " + estiLoca);
+            data1.put("body", estiName + " \n " + estiLoca + " (" + waitt + "min)");
         }
         else{
-            data1.put("body", estiName1 + " \n " + estiLoca1);
+            data1.put("body", estiName1 + " \n " + estiLoca1 + " (" + waitt1 + "min)");
         }
         final JSONObject jsonData = new JSONObject(data1);
         final String notificationData = new JSONArray().put(jsonData).toString();

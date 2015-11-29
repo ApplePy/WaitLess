@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HackWestern1</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_display_location">DisplayLocation</string>
+    <string name="latitude1">latitude1</string>
+    <string name="mLatitudeText">mLatitudeText</string>
+    <string name="mLongitudeText">mLongitudeText</string>
+    <string name="title_activity_second_display_location">SecondDisplayLocation</string>
+</resources>

@@ -211,10 +211,10 @@ public class MainActivity extends AppCompatActivity {
         }
         colour1 = (LinearLayout) findViewById(R.id.SecondLocation);
         if((Integer.parseInt(waitt1)) < 5){
-            colour.setBackgroundColor(Color.GREEN);
+            colour1.setBackgroundColor(Color.GREEN);
         }
         else{
-            colour.setBackgroundColor(Color.RED);
+            colour1.setBackgroundColor(Color.RED);
         }
 
 
